@@ -1,9 +1,407 @@
 {
   "updated": "2026-09-23",
   "bibliography_checked": "2026-09-21",
-  "selection": "recent and representative work by research theme; publication profiles linked via INSPIRE and ORCID",
+  "selection_reviewed": "2026-09-23",
+  "selection": "Editorial selection weighted by the depth of each research area, without a uniform paper limit. Recent milestones and foundational papers; one visible primary theme per paper; complete records via INSPIRE/ORCID. Full verified metadata remains in the three themes source files.",
   "date_convention": "first arXiv submission",
   "themes": [
+    {
+      "id": "surfaceology",
+      "title_zh": "组合几何：多面体、曲面与现实物理",
+      "title_en": "Combinatorial geometry and scattering",
+      "label_zh": "组合几何 · 多面体与曲面",
+      "label_en": "Combinatorial geometry",
+      "intro_zh": "从关联多面体、弦型典范形式到曲面、标量支架与隐藏零点／分裂，探索粒子相互作用的组合几何起源。这里集中呈现与 Nima Arkani-Hamed 等合作者发展的系列工作，以及它们与 Yang–Mills、非线性 σ 模型和弦振幅的联系。",
+      "intro_en": "Polytopes, curves on surfaces, scalar scaffolding and hidden zeros and splittings as organizing structures for scattering amplitudes.",
+      "papers": [
+        {
+          "arxiv": "2504.21676",
+          "title": "Superstring amplitudes meet surfaceology",
+          "year": 2025,
+          "date": "2025-04-30",
+          "authors": [
+            "Qu Cao",
+            "Jin Dong",
+            "Song He",
+            "Fan Zhu"
+          ],
+          "note_zh": "以运动学平移和标量支架连接超弦、玻色弦与曲面积分。",
+          "note_en": "Connecting superstring and bosonic-string amplitudes through kinematic shifts, scaffolding, and curve integrals.",
+          "url": "https://arxiv.org/abs/2504.21676",
+          "resources": [],
+          "last_revised": "2025-10-29",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "2408.11891",
+          "title": "Surface Kinematics and \"The\" Yang-Mills Integrand",
+          "year": 2024,
+          "date": "2024-08-21",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Qu Cao",
+            "Jin Dong",
+            "Carolina Figueiredo",
+            "Song He"
+          ],
+          "note_zh": "以曲面运动学定义满足广义规范不变性及一致圈切割的杨–米尔斯积分核。",
+          "note_en": "Surface kinematics for Yang–Mills integrands with generalized gauge invariance and consistent loop cuts.",
+          "url": "https://arxiv.org/abs/2408.11891",
+          "resources": [
+            {
+              "label": "Loop results",
+              "url": "https://arxiv.org/src/2408.11891v2/anc/Loop.txt",
+              "evidence": "Listed in arXiv v2 ancillary index; Appendix A.2 states one-loop results through five points are in ancillary files."
+            },
+            {
+              "label": "Tree results",
+              "url": "https://arxiv.org/src/2408.11891v2/anc/Tree.txt",
+              "evidence": "Listed in arXiv v2 ancillary index; Appendix A.1 states tree results through seven points are in ancillary files."
+            },
+            {
+              "label": "Demo notebook",
+              "url": "https://arxiv.org/src/2408.11891v2/anc/demo.nb",
+              "evidence": "Listed in arXiv v2 ancillary index alongside Loop.txt and Tree.txt."
+            }
+          ],
+          "last_revised": "2025-05-01",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "2406.03838",
+          "title": "On universal splittings of tree-level particle and string scattering amplitudes",
+          "year": 2024,
+          "date": "2024-06-06",
+          "authors": [
+            "Qu Cao",
+            "Jin Dong",
+            "Song He",
+            "Canxin Shi",
+            "Fanky Zhu"
+          ],
+          "note_zh": "系统研究粒子与弦的树级振幅在特殊运动学上的普适分裂。",
+          "note_en": "A systematic treatment of universal splitting in tree-level particle and string amplitudes.",
+          "url": "https://arxiv.org/abs/2406.03838",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "2401.00041",
+          "title": "Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory",
+          "year": 2023,
+          "date": "2023-12-29",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Qu Cao",
+            "Jin Dong",
+            "Carolina Figueiredo",
+            "Song He"
+          ],
+          "note_zh": "通过标量支架与曲面组合几何提出胶子振幅表示，并检验至两圈的非平凡首项奇点。",
+          "note_en": "Scalar scaffolding and surface combinatorics for gluon amplitudes, with nontrivial leading-singularity checks through two loops.",
+          "url": "https://arxiv.org/abs/2401.00041",
+          "resources": [],
+          "last_revised": "2025-05-01",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "2312.16282",
+          "title": "Hidden zeros for particle/string amplitudes and the unity of colored scalars, pions and gluons",
+          "year": 2023,
+          "date": "2023-12-26",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Qu Cao",
+            "Jin Dong",
+            "Carolina Figueiredo",
+            "Song He"
+          ],
+          "note_zh": "树级隐藏零点、零点附近的分解与标量—π介子—胶子的运动学联系。",
+          "note_en": "Tree-level hidden zeros, nearby factorization and kinematic links between scalars, pions and gluons.",
+          "url": "https://arxiv.org/abs/2312.16282",
+          "resources": [],
+          "last_revised": "2024-12-30",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "2005.11419",
+          "title": "Cluster Configuration Spaces of Finite Type",
+          "year": 2020,
+          "date": "2020-05-22",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Song He",
+            "Thomas Lam"
+          ],
+          "url": "https://arxiv.org/abs/2005.11419",
+          "resources": [],
+          "note_zh": "有限型簇构形空间、广义关联多面体及树级开弦振幅的簇代数推广。",
+          "note_en": "Finite-type cluster configuration spaces, generalized associahedra and cluster analogues of tree-level open-string amplitudes.",
+          "last_revised": "2021-10-17",
+          "arxiv_version": 4,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "1912.11764",
+          "title": "Binary Geometries, Generalized Particles and Strings, and Cluster Algebras",
+          "year": 2019,
+          "date": "2019-12-26",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Song He",
+            "Thomas Lam",
+            "Hugh Thomas"
+          ],
+          "url": "https://arxiv.org/abs/1912.11764",
+          "resources": [],
+          "note_zh": "以二元几何和簇弦积分推广粒子与弦的散射结构。",
+          "note_en": "Binary geometries and cluster string integrals extending particle and string scattering structures.",
+          "last_revised": "2020-02-17",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "1912.08707",
+          "title": "Stringy Canonical Forms",
+          "year": 2019,
+          "date": "2019-12-18",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Song He",
+            "Thomas Lam"
+          ],
+          "url": "https://arxiv.org/abs/1912.08707",
+          "resources": [],
+          "note_zh": "以弦型积分推广多面体典范形式，联系热带结构与散射方程。",
+          "note_en": "Stringy integrals generalizing polytope canonical forms, with tropical structure and scattering equations.",
+          "last_revised": "2021-03-04",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        },
+        {
+          "arxiv": "1711.09102",
+          "title": "Scattering Forms and the Positive Geometry of Kinematics, Color and the Worldsheet",
+          "year": 2017,
+          "date": "2017-11-24",
+          "authors": [
+            "Nima Arkani-Hamed",
+            "Yuntao Bai",
+            "Song He",
+            "Gongwang Yan"
+          ],
+          "url": "https://arxiv.org/abs/1711.09102",
+          "resources": [],
+          "note_zh": "运动学关联多面体、散射形式与散射方程的几何联系。",
+          "note_en": "Kinematic associahedra, scattering forms and the geometry of scattering equations.",
+          "last_revised": "2018-03-28",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "surfaceology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cluster-geometry",
+      "title_zh": "正几何、簇代数与振幅多面体",
+      "title_en": "Positive geometry, cluster algebras and amplituhedra",
+      "label_zh": "正几何、簇代数与振幅多面体",
+      "label_en": "Positive geometry & clusters",
+      "intro_zh": "用几何区域及其典范形式理解散射振幅，研究振幅多面体、正 Grassmannian 与簇代数之间的联系。从 SYM 到 ABJM，关注几何的边界、剖分、圈结构与符号字母表。",
+      "intro_en": "Canonical forms, boundaries and triangulations of positive geometries, and their connections to scattering amplitudes and cluster algebras.",
+      "papers": [
+        {
+          "arxiv": "2505.09808",
+          "resources": [],
+          "note_zh": "Correlahedron 的分室、首项奇点与四圈椭圆结构。",
+          "note_en": "Correlahedron chambers, leading singularities, and four-loop elliptic structure.",
+          "title": "Leading singularities and chambers of Correlahedron",
+          "authors": [
+            "Song He",
+            "Yu-tin Huang",
+            "Chia-Kai Kuo"
+          ],
+          "date": "2025-05-14",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2505.09808",
+          "last_revised": "2026-04-11",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "2306.00951",
+          "title": "The ABJM Amplituhedron",
+          "authors": [
+            "Song He",
+            "Yu-tin Huang",
+            "Chia-Kai Kuo"
+          ],
+          "date": "2023-06-01",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2306.00951",
+          "last_revised": "2023-09-25",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "2303.03035",
+          "title": "Emergent unitarity, all-loop cuts and integrations from the ABJM amplituhedron",
+          "authors": [
+            "Song He",
+            "Chia-Kai Kuo",
+            "Zhenjie Li",
+            "Yao-Qi Zhang"
+          ],
+          "date": "2023-03-06",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2303.03035",
+          "last_revised": "2023-06-08",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "2204.08297",
+          "title": "All-Loop Four-Point Aharony-Bergman-Jafferis-Maldacena Amplitudes from Dimensional Reduction of the Amplituhedron",
+          "authors": [
+            "Song He",
+            "Chia-Kai Kuo",
+            "Zhenjie Li",
+            "Yao-Qi Zhang"
+          ],
+          "date": "2022-04-18",
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2204.08297",
+          "last_revised": "2023-01-18",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "2112.11842",
+          "title": "Kinematics, cluster algebras and Feynman integrals",
+          "year": 2021,
+          "date": "2021-12-22",
+          "authors": [
+            "Song He",
+            "Zhenjie Li",
+            "Qinglin Yang"
+          ],
+          "note_zh": "从运动学与簇代数研究费曼积分。",
+          "note_en": "Feynman integrals through kinematics and cluster algebras.",
+          "url": "https://arxiv.org/abs/2112.11842",
+          "resources": [
+            {
+              "label": "CA.m",
+              "url": "https://arxiv.org/src/2112.11842v2/anc/CA.m",
+              "evidence": "Direct CA.m link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
+            },
+            {
+              "label": "wheel.m",
+              "url": "https://arxiv.org/src/2112.11842v2/anc/wheel.m",
+              "evidence": "Direct wheel.m link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
+            }
+          ],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "2111.02576",
+          "title": "The momentum amplituhedron of SYM and ABJM from twistor-string maps",
+          "authors": [
+            "Song He",
+            "Chia-Kai Kuo",
+            "Yao-Qi Zhang"
+          ],
+          "date": "2021-11-04",
+          "year": 2021,
+          "url": "https://arxiv.org/abs/2111.02576",
+          "last_revised": "2022-04-28",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        },
+        {
+          "arxiv": "1408.2459",
+          "title": "The Amplituhedron from Momentum Twistor Diagrams",
+          "authors": [
+            "Yuntao Bai",
+            "Song He"
+          ],
+          "date": "2014-08-11",
+          "year": 2014,
+          "url": "https://arxiv.org/abs/1408.2459",
+          "last_revised": "2014-08-11",
+          "arxiv_version": 1,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "cluster-geometry"
+          ]
+        }
+      ]
+    },
     {
       "id": "qbar-high-loop",
       "title_zh": "高圈振幅：Bootstrap 与 Q̄",
@@ -43,47 +441,6 @@
           ]
         },
         {
-          "arxiv": "2211.01792",
-          "title": "The two-loop eight-point amplitude in ABJM theory",
-          "authors": [
-            "Song He",
-            "Yu-tin Huang",
-            "Chia-Kai Kuo",
-            "Zhenjie Li"
-          ],
-          "date": "2022-11-03",
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2211.01792",
-          "last_revised": "2023-02-08",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "qbar-high-loop"
-          ]
-        },
-        {
-          "arxiv": "2209.10856",
-          "title": "A nice two-loop next-to-next-to-MHV amplitude in N = 4 super-Yang-Mills",
-          "authors": [
-            "Song He",
-            "Zhenjie Li",
-            "Chi Zhang"
-          ],
-          "date": "2022-09-22",
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2209.10856",
-          "last_revised": "2022-09-22",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "qbar-high-loop"
-          ]
-        },
-        {
           "arxiv": "2108.07959",
           "title": "Comments on all-loop constraints for scattering amplitudes and Feynman integrals",
           "authors": [
@@ -98,12 +455,9 @@
           "arxiv_version": 2,
           "bibliography_checked": "2026-09-21",
           "resources": [],
-          "secondary_theme_ids": [
-            "feynman-integrals"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "qbar-high-loop",
-            "feynman-integrals"
+            "qbar-high-loop"
           ]
         },
         {
@@ -122,12 +476,9 @@
           "arxiv_version": 2,
           "bibliography_checked": "2026-09-21",
           "resources": [],
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "qbar-high-loop",
-            "cluster-geometry"
+            "qbar-high-loop"
           ]
         },
         {
@@ -161,22 +512,6 @@
           "last_revised": "2019-11-22",
           "arxiv_version": 2,
           "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "qbar-high-loop"
-          ]
-        },
-        {
-          "arxiv": "1305.2781",
-          "title": "Three-loop octagons and n-gons in maximally supersymmetric Yang-Mills theory",
-          "year": 2013,
-          "date": "2013-05-13",
-          "authors": [
-            "Simon Caron-Huot",
-            "Song He"
-          ],
-          "url": "https://arxiv.org/abs/1305.2781",
           "resources": [],
           "secondary_theme_ids": [],
           "themes": [
@@ -247,12 +582,9 @@
           "last_revised": "2026-09-04",
           "arxiv_version": 1,
           "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "form-factors",
-            "cluster-geometry"
+            "form-factors"
           ]
         },
         {
@@ -314,22 +646,6 @@
           ]
         },
         {
-          "arxiv": "1608.04306",
-          "title": "A note on connected formula for form factors",
-          "year": 2016,
-          "date": "2016-08-15",
-          "authors": [
-            "Song He",
-            "Zhengwen Liu"
-          ],
-          "url": "https://arxiv.org/abs/1608.04306",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "form-factors"
-          ]
-        },
-        {
           "arxiv": "1607.02843",
           "title": "Connected formulas for amplitudes in standard model",
           "authors": [
@@ -345,12 +661,9 @@
           "note_en": "Connected formulas for massless-quark QCD trees and Higgs plus multipartons in the heavy-top effective theory.",
           "resources": [],
           "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "form-factors",
-            "chy-equations"
+            "form-factors"
           ]
         }
       ]
@@ -443,31 +756,6 @@
           ]
         },
         {
-          "arxiv": "2505.09808",
-          "resources": [],
-          "note_zh": "Correlahedron 的分室、首项奇点与四圈椭圆结构。",
-          "note_en": "Correlahedron chambers, leading singularities, and four-loop elliptic structure.",
-          "title": "Leading singularities and chambers of Correlahedron",
-          "authors": [
-            "Song He",
-            "Yu-tin Huang",
-            "Chia-Kai Kuo"
-          ],
-          "date": "2025-05-14",
-          "year": 2025,
-          "url": "https://arxiv.org/abs/2505.09808",
-          "last_revised": "2026-04-11",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "correlators-fgraphs",
-            "cluster-geometry"
-          ]
-        },
-        {
           "arxiv": "2503.15593",
           "title": "The Four-Point Correlator of Planar sYM at Twelve Loops",
           "year": 2025,
@@ -500,33 +788,6 @@
           "note_en": "Twelve-loop planar integrands, with public graph data and Mathematica tools.",
           "last_revised": "2025-03-19",
           "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "correlators-fgraphs"
-          ]
-        },
-        {
-          "arxiv": "2410.09859",
-          "title": "The Cusp Limit of Correlators and A New Graphical Bootstrap for Correlators/Amplitudes to Eleven Loops",
-          "year": 2024,
-          "date": "2024-10-13",
-          "authors": [
-            "Song He",
-            "Canxin Shi",
-            "Yichao Tang",
-            "Yao-Qi Zhang"
-          ],
-          "url": "https://arxiv.org/abs/2410.09859",
-          "resources": [
-            {
-              "label": "f-graph data + demo",
-              "url": "https://drive.google.com/file/d/1SfFY-eDNMIM6zmhmOwXmAY5cKhdsc_fr/view?usp=sharing",
-              "evidence": "arXiv:2410.09859v3, introduction footnote 1 explicitly links ancillary_file_v2.zip and describes its planar/nonplanar graph data and demo.nb; the public landing page title confirms the archive name. Archive contents not downloaded."
-            }
-          ],
-          "last_revised": "2025-02-17",
-          "arxiv_version": 3,
           "bibliography_checked": "2026-09-21",
           "secondary_theme_ids": [],
           "themes": [
@@ -570,153 +831,9 @@
           "resources": [],
           "note_zh": "全圈几何猜想，显式验证至三圈。",
           "note_en": "An all-loop geometry conjecture, explicitly checked through three loops.",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "correlators-fgraphs",
-            "cluster-geometry"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cluster-geometry",
-      "title_zh": "正几何、簇代数与振幅多面体",
-      "title_en": "Positive geometry, cluster algebras and amplituhedra",
-      "label_zh": "正几何、簇代数与振幅多面体",
-      "label_en": "Positive geometry & clusters",
-      "intro_zh": "用几何区域及其典范形式理解散射振幅，研究振幅多面体、正 Grassmannian 与簇代数之间的联系。从 SYM 到 ABJM，关注几何的边界、剖分、圈结构与符号字母表。",
-      "intro_en": "Canonical forms, boundaries and triangulations of positive geometries, and their connections to scattering amplitudes and cluster algebras.",
-      "papers": [
-        {
-          "arxiv": "2306.00951",
-          "title": "The ABJM Amplituhedron",
-          "authors": [
-            "Song He",
-            "Yu-tin Huang",
-            "Chia-Kai Kuo"
-          ],
-          "date": "2023-06-01",
-          "year": 2023,
-          "url": "https://arxiv.org/abs/2306.00951",
-          "last_revised": "2023-09-25",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
           "secondary_theme_ids": [],
           "themes": [
-            "cluster-geometry"
-          ]
-        },
-        {
-          "arxiv": "2303.03035",
-          "title": "Emergent unitarity, all-loop cuts and integrations from the ABJM amplituhedron",
-          "authors": [
-            "Song He",
-            "Chia-Kai Kuo",
-            "Zhenjie Li",
-            "Yao-Qi Zhang"
-          ],
-          "date": "2023-03-06",
-          "year": 2023,
-          "url": "https://arxiv.org/abs/2303.03035",
-          "last_revised": "2023-06-08",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [
-            "qbar-high-loop"
-          ],
-          "themes": [
-            "cluster-geometry",
-            "qbar-high-loop"
-          ]
-        },
-        {
-          "arxiv": "2204.08297",
-          "title": "All-Loop Four-Point Aharony-Bergman-Jafferis-Maldacena Amplitudes from Dimensional Reduction of the Amplituhedron",
-          "authors": [
-            "Song He",
-            "Chia-Kai Kuo",
-            "Zhenjie Li",
-            "Yao-Qi Zhang"
-          ],
-          "date": "2022-04-18",
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2204.08297",
-          "last_revised": "2023-01-18",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [
-            "qbar-high-loop"
-          ],
-          "themes": [
-            "cluster-geometry",
-            "qbar-high-loop"
-          ]
-        },
-        {
-          "arxiv": "2111.02576",
-          "title": "The momentum amplituhedron of SYM and ABJM from twistor-string maps",
-          "authors": [
-            "Song He",
-            "Chia-Kai Kuo",
-            "Yao-Qi Zhang"
-          ],
-          "date": "2021-11-04",
-          "year": 2021,
-          "url": "https://arxiv.org/abs/2111.02576",
-          "last_revised": "2022-04-28",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
-          "themes": [
-            "cluster-geometry",
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "1510.03553",
-          "title": "The Amplituhedron and the One-loop Grassmannian Measure",
-          "authors": [
-            "Yuntao Bai",
-            "Song He",
-            "Thomas Lam"
-          ],
-          "date": "2015-10-13",
-          "year": 2015,
-          "url": "https://arxiv.org/abs/1510.03553",
-          "last_revised": "2015-10-13",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "cluster-geometry"
-          ]
-        },
-        {
-          "arxiv": "1408.2459",
-          "title": "The Amplituhedron from Momentum Twistor Diagrams",
-          "authors": [
-            "Yuntao Bai",
-            "Song He"
-          ],
-          "date": "2014-08-11",
-          "year": 2014,
-          "url": "https://arxiv.org/abs/1408.2459",
-          "last_revised": "2014-08-11",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "cluster-geometry"
+            "correlators-fgraphs"
           ]
         }
       ]
@@ -747,34 +864,6 @@
           "url": "https://arxiv.org/abs/2412.19629",
           "last_revised": "2024-12-27",
           "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "1907.06041",
-          "title": "String Correlators: Recursive Expansion, Integration-by-Parts and Scattering Equations",
-          "authors": [
-            "Song He",
-            "Fei Teng",
-            "Yong Zhang"
-          ],
-          "year": 2019,
-          "date": "2019-07-13",
-          "last_revised": "2019-09-15",
-          "arxiv_version": 2,
-          "url": "https://arxiv.org/abs/1907.06041",
-          "note_zh": "弦关联函数的递归展开、分部积分算法与 CHY 表示，附 Mathematica 实现。",
-          "note_en": "Recursive expansion and integration-by-parts reduction of string correlators, with a Mathematica implementation.",
-          "resources": [
-            {
-              "label": "IBP.nb",
-              "url": "https://arxiv.org/src/1907.06041v2/anc/IBP.nb",
-              "evidence": "Listed in official arXiv abstract-page ancillary-file index, checked 2026-09-21; file contents not inspected in this pass."
-            }
-          ],
           "bibliography_checked": "2026-09-21",
           "secondary_theme_ids": [],
           "themes": [
@@ -820,12 +909,9 @@
           "note_en": "Scattering-equation representations and dimensional reduction connecting gravity, gauge theory, DBI and NLSM trees.",
           "resources": [],
           "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "gravity-classical"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "chy-equations",
-            "gravity-classical"
+            "chy-equations"
           ]
         },
         {
@@ -842,12 +928,9 @@
           "note_en": "A unified formulation for scalar, gluon and graviton amplitudes.",
           "url": "https://arxiv.org/abs/1309.0885",
           "resources": [],
-          "secondary_theme_ids": [
-            "gravity-classical"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "chy-equations",
-            "gravity-classical"
+            "chy-equations"
           ]
         },
         {
@@ -883,12 +966,9 @@
           "note_en": "Scattering equations and KLT orthogonality.",
           "url": "https://arxiv.org/abs/1306.6575",
           "resources": [],
-          "secondary_theme_ids": [
-            "gravity-classical"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "chy-equations",
-            "gravity-classical"
+            "chy-equations"
           ]
         }
       ]
@@ -943,12 +1023,9 @@
           "last_revised": "2025-09-29",
           "arxiv_version": 1,
           "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "gravity-classical",
-            "chy-equations"
+            "gravity-classical"
           ]
         },
         {
@@ -1045,354 +1122,6 @@
           "themes": [
             "gravity-classical"
           ]
-        },
-        {
-          "arxiv": "1207.4064",
-          "title": "A Link Representation for Gravity Amplitudes",
-          "authors": [
-            "Song He"
-          ],
-          "year": 2012,
-          "date": "2012-07-17",
-          "last_revised": "2012-07-17",
-          "arxiv_version": 1,
-          "url": "https://arxiv.org/abs/1207.4064",
-          "note_zh": "以受约束的连接变量和行列式给出 N = 8 超引力全部树级振幅的表示。",
-          "note_en": "A link-variable and determinant representation for all tree amplitudes in N = 8 supergravity.",
-          "resources": [],
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "gravity-classical"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "surfaceology",
-      "title_zh": "组合几何：多面体、曲面与现实物理",
-      "title_en": "Combinatorial geometry and scattering",
-      "label_zh": "组合几何 · 多面体与曲面",
-      "label_en": "Combinatorial geometry",
-      "intro_zh": "从关联多面体、弦型典范形式到曲面、标量支架与隐藏零点／分裂，探索粒子相互作用的组合几何起源。这里集中呈现与 Nima Arkani-Hamed 等合作者发展的系列工作，以及它们与 Yang–Mills、非线性 σ 模型和弦振幅的联系。",
-      "intro_en": "Polytopes, curves on surfaces, scalar scaffolding and hidden zeros and splittings as organizing structures for scattering amplitudes.",
-      "papers": [
-        {
-          "arxiv": "2504.21676",
-          "title": "Superstring amplitudes meet surfaceology",
-          "year": 2025,
-          "date": "2025-04-30",
-          "authors": [
-            "Qu Cao",
-            "Jin Dong",
-            "Song He",
-            "Fan Zhu"
-          ],
-          "note_zh": "以运动学平移和标量支架连接超弦、玻色弦与曲面积分。",
-          "note_en": "Connecting superstring and bosonic-string amplitudes through kinematic shifts, scaffolding, and curve integrals.",
-          "url": "https://arxiv.org/abs/2504.21676",
-          "resources": [],
-          "last_revised": "2025-10-29",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
-          "themes": [
-            "surfaceology",
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "2408.11891",
-          "title": "Surface Kinematics and \"The\" Yang-Mills Integrand",
-          "year": 2024,
-          "date": "2024-08-21",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Qu Cao",
-            "Jin Dong",
-            "Carolina Figueiredo",
-            "Song He"
-          ],
-          "note_zh": "以曲面运动学定义满足广义规范不变性及一致圈切割的杨–米尔斯积分核。",
-          "note_en": "Surface kinematics for Yang–Mills integrands with generalized gauge invariance and consistent loop cuts.",
-          "url": "https://arxiv.org/abs/2408.11891",
-          "resources": [
-            {
-              "label": "Loop results",
-              "url": "https://arxiv.org/src/2408.11891v2/anc/Loop.txt",
-              "evidence": "Listed in arXiv v2 ancillary index; Appendix A.2 states one-loop results through five points are in ancillary files."
-            },
-            {
-              "label": "Tree results",
-              "url": "https://arxiv.org/src/2408.11891v2/anc/Tree.txt",
-              "evidence": "Listed in arXiv v2 ancillary index; Appendix A.1 states tree results through seven points are in ancillary files."
-            },
-            {
-              "label": "Demo notebook",
-              "url": "https://arxiv.org/src/2408.11891v2/anc/demo.nb",
-              "evidence": "Listed in arXiv v2 ancillary index alongside Loop.txt and Tree.txt."
-            }
-          ],
-          "last_revised": "2025-05-01",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "surfaceology"
-          ]
-        },
-        {
-          "arxiv": "2406.03838",
-          "title": "On universal splittings of tree-level particle and string scattering amplitudes",
-          "year": 2024,
-          "date": "2024-06-06",
-          "authors": [
-            "Qu Cao",
-            "Jin Dong",
-            "Song He",
-            "Canxin Shi",
-            "Fanky Zhu"
-          ],
-          "note_zh": "系统研究粒子与弦的树级振幅在特殊运动学上的普适分裂。",
-          "note_en": "A systematic treatment of universal splitting in tree-level particle and string amplitudes.",
-          "url": "https://arxiv.org/abs/2406.03838",
-          "resources": [],
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
-          "themes": [
-            "surfaceology",
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "2403.08855",
-          "title": "A universal splitting of string and particle scattering amplitudes",
-          "year": 2024,
-          "date": "2024-03-13",
-          "authors": [
-            "Qu Cao",
-            "Jin Dong",
-            "Song He",
-            "Canxin Shi"
-          ],
-          "note_zh": "提出将树级振幅分解为两个较低点流的普适运动学分裂。",
-          "note_en": "Universal kinematic splitting of tree-level amplitudes into two lower-point currents.",
-          "url": "https://arxiv.org/abs/2403.08855",
-          "resources": [],
-          "secondary_theme_ids": [
-            "chy-equations"
-          ],
-          "themes": [
-            "surfaceology",
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "2401.05483",
-          "title": "NLSM ⊂ Tr(φ³)",
-          "year": 2024,
-          "date": "2024-01-10",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Qu Cao",
-            "Jin Dong",
-            "Carolina Figueiredo",
-            "Song He"
-          ],
-          "note_zh": "在平面极限中以运动学平移联系 NLSM 与 Tr(φ³) 振幅。",
-          "note_en": "Kinematic shifts relating planar NLSM and Tr(φ³) amplitudes.",
-          "url": "https://arxiv.org/abs/2401.05483",
-          "resources": [],
-          "last_revised": "2024-12-30",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "surfaceology"
-          ]
-        },
-        {
-          "arxiv": "2401.00041",
-          "title": "Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory",
-          "year": 2023,
-          "date": "2023-12-29",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Qu Cao",
-            "Jin Dong",
-            "Carolina Figueiredo",
-            "Song He"
-          ],
-          "note_zh": "通过标量支架与曲面组合几何提出胶子振幅表示，并检验至两圈的非平凡首项奇点。",
-          "note_en": "Scalar scaffolding and surface combinatorics for gluon amplitudes, with nontrivial leading-singularity checks through two loops.",
-          "url": "https://arxiv.org/abs/2401.00041",
-          "resources": [],
-          "last_revised": "2025-05-01",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "surfaceology"
-          ]
-        },
-        {
-          "arxiv": "2312.16282",
-          "title": "Hidden zeros for particle/string amplitudes and the unity of colored scalars, pions and gluons",
-          "year": 2023,
-          "date": "2023-12-26",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Qu Cao",
-            "Jin Dong",
-            "Carolina Figueiredo",
-            "Song He"
-          ],
-          "note_zh": "树级隐藏零点、零点附近的分解与标量—π介子—胶子的运动学联系。",
-          "note_en": "Tree-level hidden zeros, nearby factorization and kinematic links between scalars, pions and gluons.",
-          "url": "https://arxiv.org/abs/2312.16282",
-          "resources": [],
-          "last_revised": "2024-12-30",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "surfaceology"
-          ]
-        },
-        {
-          "arxiv": "2005.11419",
-          "title": "Cluster Configuration Spaces of Finite Type",
-          "year": 2020,
-          "date": "2020-05-22",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Song He",
-            "Thomas Lam"
-          ],
-          "url": "https://arxiv.org/abs/2005.11419",
-          "resources": [],
-          "note_zh": "有限型簇构形空间、广义关联多面体及树级开弦振幅的簇代数推广。",
-          "note_en": "Finite-type cluster configuration spaces, generalized associahedra and cluster analogues of tree-level open-string amplitudes.",
-          "last_revised": "2021-10-17",
-          "arxiv_version": 4,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "surfaceology",
-            "cluster-geometry"
-          ]
-        },
-        {
-          "arxiv": "1912.12948",
-          "title": "Causal Diamonds, Cluster Polytopes and Scattering Amplitudes",
-          "year": 2019,
-          "date": "2019-12-30",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Song He",
-            "Giulio Salvatori",
-            "Hugh Thomas"
-          ],
-          "url": "https://arxiv.org/abs/1912.12948",
-          "resources": [],
-          "note_zh": "从运动学因果结构与 quiver 演化构造簇多面体，联系标量树振幅和一圈积分核。",
-          "note_en": "Cluster polytopes from kinematic causal structure and quiver evolution, linked to scalar tree amplitudes and one-loop integrands.",
-          "last_revised": "2022-07-31",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "surfaceology",
-            "cluster-geometry"
-          ]
-        },
-        {
-          "arxiv": "1912.11764",
-          "title": "Binary Geometries, Generalized Particles and Strings, and Cluster Algebras",
-          "year": 2019,
-          "date": "2019-12-26",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Song He",
-            "Thomas Lam",
-            "Hugh Thomas"
-          ],
-          "url": "https://arxiv.org/abs/1912.11764",
-          "resources": [],
-          "note_zh": "以二元几何和簇弦积分推广粒子与弦的散射结构。",
-          "note_en": "Binary geometries and cluster string integrals extending particle and string scattering structures.",
-          "last_revised": "2020-02-17",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "surfaceology",
-            "cluster-geometry"
-          ]
-        },
-        {
-          "arxiv": "1912.08707",
-          "title": "Stringy Canonical Forms",
-          "year": 2019,
-          "date": "2019-12-18",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Song He",
-            "Thomas Lam"
-          ],
-          "url": "https://arxiv.org/abs/1912.08707",
-          "resources": [],
-          "note_zh": "以弦型积分推广多面体典范形式，联系热带结构与散射方程。",
-          "note_en": "Stringy integrals generalizing polytope canonical forms, with tropical structure and scattering equations.",
-          "last_revised": "2021-03-04",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry",
-            "chy-equations"
-          ],
-          "themes": [
-            "surfaceology",
-            "cluster-geometry",
-            "chy-equations"
-          ]
-        },
-        {
-          "arxiv": "1711.09102",
-          "title": "Scattering Forms and the Positive Geometry of Kinematics, Color and the Worldsheet",
-          "year": 2017,
-          "date": "2017-11-24",
-          "authors": [
-            "Nima Arkani-Hamed",
-            "Yuntao Bai",
-            "Song He",
-            "Gongwang Yan"
-          ],
-          "url": "https://arxiv.org/abs/1711.09102",
-          "resources": [],
-          "note_zh": "运动学关联多面体、散射形式与散射方程的几何联系。",
-          "note_en": "Kinematic associahedra, scattering forms and the geometry of scattering equations.",
-          "last_revised": "2018-03-28",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "cluster-geometry",
-            "chy-equations"
-          ],
-          "themes": [
-            "surfaceology",
-            "cluster-geometry",
-            "chy-equations"
-          ]
         }
       ]
     },
@@ -1429,12 +1158,9 @@
           "last_revised": "2026-02-05",
           "arxiv_version": 1,
           "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [
-            "surfaceology"
-          ],
+          "secondary_theme_ids": [],
           "themes": [
-            "ads-mellin",
-            "surfaceology"
+            "ads-mellin"
           ]
         },
         {
@@ -1486,215 +1212,6 @@
           "secondary_theme_ids": [],
           "themes": [
             "ads-mellin"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "feynman-integrals",
-      "title_zh": "费曼积分：奇点、符号与周期",
-      "title_en": "Feynman integrals: singularities, symbols and periods",
-      "label_zh": "费曼积分 · 奇点、符号与周期",
-      "label_en": "Feynman integrals",
-      "intro_zh": "从 Landau 奇点与 Schubert 几何出发，识别符号字母表和微分方程，探索费曼积分的系统计算。研究范围包括多重多对数、椭圆与 Calabi–Yau 结构，以及共形积分和周期之间的联系。",
-      "intro_en": "Geometric and analytic methods for Feynman integrals: Landau singularities, symbol alphabets, differential equations and periods.",
-      "papers": [
-        {
-          "arxiv": "2506.20095",
-          "resources": [],
-          "note_zh": "求解无限族双共形积分，并研究其周期与单值多重 ζ 值。",
-          "note_en": "Infinite families of dual-conformal integrals and their single-valued multiple-zeta periods.",
-          "title": "On Solving Dual Conformal Integrals in Coulomb-branch Amplitudes and Their Periods",
-          "authors": [
-            "Song He",
-            "Xuhang Jiang"
-          ],
-          "date": "2025-06-25",
-          "year": 2025,
-          "url": "https://arxiv.org/abs/2506.20095",
-          "last_revised": "2026-03-31",
-          "arxiv_version": 3,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2502.08871",
-          "title": "Notes on conformal integrals: Coulomb branch amplitudes, magic identities and bootstrap",
-          "year": 2025,
-          "date": "2025-02-13",
-          "authors": [
-            "Song He",
-            "Xuhang Jiang",
-            "Jiahao Liu",
-            "Yao-Qi Zhang"
-          ],
-          "note_zh": "共形积分的魔术恒等式与多圈自举。",
-          "note_en": "Magic identities and multi-loop bootstrap for conformal integrals.",
-          "url": "https://arxiv.org/abs/2502.08871",
-          "resources": [
-            {
-              "label": "int45.nb",
-              "url": "https://arxiv.org/src/2502.08871v2/anc/int45.nb",
-              "evidence": "Direct int45.nb link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
-            },
-            {
-              "label": "intresults.nb",
-              "url": "https://arxiv.org/src/2502.08871v2/anc/intresults.nb",
-              "evidence": "Direct intresults.nb link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
-            }
-          ],
-          "last_revised": "2025-10-15",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2410.11423",
-          "title": "Landau-based Schubert analysis",
-          "year": 2024,
-          "date": "2024-10-15",
-          "authors": [
-            "Song He",
-            "Xuhang Jiang",
-            "Jiahao Liu",
-            "Qinglin Yang"
-          ],
-          "note_zh": "连接 Landau 奇点与符号字母表的几何方法。",
-          "note_en": "A geometric connection between Landau singularities and symbol alphabets.",
-          "url": "https://arxiv.org/abs/2410.11423",
-          "resources": [
-            {
-              "label": "Source + Mathematica archive",
-              "url": "https://arxiv.org/src/2410.11423v1",
-              "evidence": "Public arXiv source archive inspected; it contains LandauMT.nb. The paper section 2 describes its ancillary Schubert-analysis notebook."
-            }
-          ],
-          "last_revised": "2024-10-15",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2309.16441",
-          "title": "On symbology and differential equations of Feynman integrals from Schubert analysis",
-          "authors": [
-            "Song He",
-            "Xuhang Jiang",
-            "Jiahao Liu",
-            "Qinglin Yang"
-          ],
-          "date": "2023-09-28",
-          "year": 2023,
-          "url": "https://arxiv.org/abs/2309.16441",
-          "last_revised": "2023-09-28",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2304.01776",
-          "title": "Jumpstarting (elliptic) symbol integrations for loop integrals",
-          "authors": [
-            "Song He",
-            "Yichao Tang"
-          ],
-          "date": "2023-04-04",
-          "year": 2023,
-          "url": "https://arxiv.org/abs/2304.01776",
-          "last_revised": "2023-04-04",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2301.07834",
-          "title": "Cutting the traintracks: Cauchy, Schubert and Calabi-Yau",
-          "authors": [
-            "Qu Cao",
-            "Song He",
-            "Yichao Tang"
-          ],
-          "date": "2023-01-19",
-          "year": 2023,
-          "url": "https://arxiv.org/abs/2301.07834",
-          "last_revised": "2023-02-14",
-          "arxiv_version": 2,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2207.13482",
-          "title": "The symbology of Feynman integrals from twistor geometries",
-          "authors": [
-            "Song He",
-            "Jiahao Liu",
-            "Yichao Tang",
-            "Qinglin Yang"
-          ],
-          "date": "2022-07-27",
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2207.13482",
-          "last_revised": "2022-07-27",
-          "arxiv_version": 1,
-          "bibliography_checked": "2026-09-21",
-          "resources": [],
-          "secondary_theme_ids": [],
-          "themes": [
-            "feynman-integrals"
-          ]
-        },
-        {
-          "arxiv": "2112.11842",
-          "title": "Kinematics, cluster algebras and Feynman integrals",
-          "year": 2021,
-          "date": "2021-12-22",
-          "authors": [
-            "Song He",
-            "Zhenjie Li",
-            "Qinglin Yang"
-          ],
-          "note_zh": "从运动学与簇代数研究费曼积分。",
-          "note_en": "Feynman integrals through kinematics and cluster algebras.",
-          "url": "https://arxiv.org/abs/2112.11842",
-          "resources": [
-            {
-              "label": "CA.m",
-              "url": "https://arxiv.org/src/2112.11842v2/anc/CA.m",
-              "evidence": "Direct CA.m link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
-            },
-            {
-              "label": "wheel.m",
-              "url": "https://arxiv.org/src/2112.11842v2/anc/wheel.m",
-              "evidence": "Direct wheel.m link in the current arXiv abstract page ancillary-file list, checked 2026-09-20."
-            }
-          ],
-          "secondary_theme_ids": [
-            "cluster-geometry"
-          ],
-          "themes": [
-            "feynman-integrals",
-            "cluster-geometry"
           ]
         }
       ]
@@ -1822,6 +1339,127 @@
           "secondary_theme_ids": [],
           "themes": [
             "cosmology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feynman-integrals",
+      "title_zh": "费曼积分：奇点、符号与周期",
+      "title_en": "Feynman integrals: singularities, symbols and periods",
+      "label_zh": "费曼积分 · 奇点、符号与周期",
+      "label_en": "Feynman integrals",
+      "intro_zh": "从 Landau 奇点与 Schubert 几何出发，识别符号字母表和微分方程，探索费曼积分的系统计算。研究范围包括多重多对数、椭圆与 Calabi–Yau 结构，以及共形积分和周期之间的联系。",
+      "intro_en": "Geometric and analytic methods for Feynman integrals: Landau singularities, symbol alphabets, differential equations and periods.",
+      "papers": [
+        {
+          "arxiv": "2506.20095",
+          "resources": [],
+          "note_zh": "求解无限族双共形积分，并研究其周期与单值多重 ζ 值。",
+          "note_en": "Infinite families of dual-conformal integrals and their single-valued multiple-zeta periods.",
+          "title": "On Solving Dual Conformal Integrals in Coulomb-branch Amplitudes and Their Periods",
+          "authors": [
+            "Song He",
+            "Xuhang Jiang"
+          ],
+          "date": "2025-06-25",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2506.20095",
+          "last_revised": "2026-03-31",
+          "arxiv_version": 3,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "feynman-integrals"
+          ]
+        },
+        {
+          "arxiv": "2410.11423",
+          "title": "Landau-based Schubert analysis",
+          "year": 2024,
+          "date": "2024-10-15",
+          "authors": [
+            "Song He",
+            "Xuhang Jiang",
+            "Jiahao Liu",
+            "Qinglin Yang"
+          ],
+          "note_zh": "连接 Landau 奇点与符号字母表的几何方法。",
+          "note_en": "A geometric connection between Landau singularities and symbol alphabets.",
+          "url": "https://arxiv.org/abs/2410.11423",
+          "resources": [
+            {
+              "label": "Source + Mathematica archive",
+              "url": "https://arxiv.org/src/2410.11423v1",
+              "evidence": "Public arXiv source archive inspected; it contains LandauMT.nb. The paper section 2 describes its ancillary Schubert-analysis notebook."
+            }
+          ],
+          "last_revised": "2024-10-15",
+          "arxiv_version": 1,
+          "bibliography_checked": "2026-09-21",
+          "secondary_theme_ids": [],
+          "themes": [
+            "feynman-integrals"
+          ]
+        },
+        {
+          "arxiv": "2304.01776",
+          "title": "Jumpstarting (elliptic) symbol integrations for loop integrals",
+          "authors": [
+            "Song He",
+            "Yichao Tang"
+          ],
+          "date": "2023-04-04",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2304.01776",
+          "last_revised": "2023-04-04",
+          "arxiv_version": 1,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "feynman-integrals"
+          ]
+        },
+        {
+          "arxiv": "2301.07834",
+          "title": "Cutting the traintracks: Cauchy, Schubert and Calabi-Yau",
+          "authors": [
+            "Qu Cao",
+            "Song He",
+            "Yichao Tang"
+          ],
+          "date": "2023-01-19",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2301.07834",
+          "last_revised": "2023-02-14",
+          "arxiv_version": 2,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "feynman-integrals"
+          ]
+        },
+        {
+          "arxiv": "2207.13482",
+          "title": "The symbology of Feynman integrals from twistor geometries",
+          "authors": [
+            "Song He",
+            "Jiahao Liu",
+            "Yichao Tang",
+            "Qinglin Yang"
+          ],
+          "date": "2022-07-27",
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2207.13482",
+          "last_revised": "2022-07-27",
+          "arxiv_version": 1,
+          "bibliography_checked": "2026-09-21",
+          "resources": [],
+          "secondary_theme_ids": [],
+          "themes": [
+            "feynman-integrals"
           ]
         }
       ]

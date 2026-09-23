@@ -9,17 +9,9 @@
   const themeIntros = [...document.querySelectorAll('[data-theme-intro]')];
   const resultCount = document.querySelector('.result-count');
   const themeSelect = document.querySelector('#theme-select');
-  const paperDisclosure = document.querySelector('.paper-disclosure');
-  const paperToggleLabel = document.querySelector('.paper-toggle-label');
-  let activeTheme = 'qbar-high-loop';
-  let selectedCount = 0;
-  function updateDisclosureLabel() {
-    const english = document.documentElement.lang === 'en';
-    paperToggleLabel.textContent = paperDisclosure.open
-      ? (english ? 'Hide publications' : '收起论文列表')
-      : (english ? `View ${selectedCount} selected publications` : `展开查看 ${selectedCount} 篇选录论文`);
-  }
-  function filterPapers(theme, resetDisclosure = true) {
+  const sectionDisclosures = [...document.querySelectorAll('.section-disclosure')];
+  let activeTheme = themeSelect.value;
+  function filterPapers(theme) {
     activeTheme = theme;
     let count = 0;
     paperRows.forEach(row => {
@@ -29,11 +21,8 @@
     });
     themeButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.theme === theme)));
     themeIntros.forEach(intro => { intro.hidden = intro.dataset.themeIntro !== theme; });
-    selectedCount = count;
     themeSelect.value = theme;
-    if (resetDisclosure) paperDisclosure.open = false;
     if (resultCount) resultCount.textContent = document.documentElement.lang === 'en' ? `${count} selected papers` : `${count} 篇选录论文`;
-    updateDisclosureLabel();
   }
   function closeMenu() { nav.classList.remove('is-open'); menu.setAttribute('aria-expanded', 'false'); }
   function setLanguage(language) {
@@ -48,15 +37,22 @@
     document.title = english ? 'Song He — Theoretical Physics' : '何颂 Song He — 研究 · 思想 · 科学传播';
     document.querySelector('meta[name="description"]').content = english ? 'Song He, theoretical physicist at ITP, Chinese Academy of Sciences. Research, publications and data on scattering amplitudes, quantum field theory and mathematical structures.' : '何颂｜理论物理。探索散射振幅、量子场论与几何结构，以及量子引力和弦论。研究、思想与科学传播。';
     try { localStorage.setItem('song-he-language', language); } catch (_) { /* File previews may restrict local storage. */ }
-    filterPapers(activeTheme, false);
+    filterPapers(activeTheme);
   }
   document.documentElement.classList.add('has-js');
   themeButtons.forEach(button => button.addEventListener('click', () => filterPapers(button.dataset.theme)));
   themeSelect.addEventListener('change', () => filterPapers(themeSelect.value));
-  paperDisclosure.addEventListener('toggle', updateDisclosureLabel);
-  let disclosureBeforePrint = false;
-  window.addEventListener('beforeprint', () => { disclosureBeforePrint = paperDisclosure.open; paperDisclosure.open = true; });
-  window.addEventListener('afterprint', () => { paperDisclosure.open = disclosureBeforePrint; });
+  let disclosuresBeforePrint = [];
+  window.addEventListener('beforeprint', () => {
+    disclosuresBeforePrint = sectionDisclosures.map(details => details.open);
+    sectionDisclosures.forEach(details => { details.open = true; });
+  });
+  window.addEventListener('afterprint', () => {
+    sectionDisclosures.forEach((details, i) => { details.open = disclosuresBeforePrint[i]; });
+  });
+  document.querySelectorAll('a[href="#publications"]').forEach(link => link.addEventListener('click', () => {
+    document.querySelector(link.getAttribute('href') + ' .section-disclosure').open = true;
+  }));
   document.querySelectorAll('[data-theme-target]').forEach(link => link.addEventListener('click', () => filterPapers(link.dataset.themeTarget)));
   languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.language)));
   menu.addEventListener('click', () => { const opened = menu.getAttribute('aria-expanded') === 'true'; nav.classList.toggle('is-open', !opened); menu.setAttribute('aria-expanded', String(!opened)); });
@@ -69,7 +65,8 @@
     const source = button.querySelector('img');
     previewImage.src = source.currentSrc || source.src;
     previewImage.alt = source.alt;
-    imageViewer.querySelector('#image-viewer-caption').textContent = button.closest('figure').querySelector('figcaption').innerText;
+    const caption = button.closest('figure').querySelector('figcaption');
+    imageViewer.querySelector('#image-viewer-caption').textContent = caption ? caption.innerText : source.alt;
     imageViewer.showModal();
   }));
   imageViewer.querySelector('[data-close-image]').addEventListener('click', () => imageViewer.close());

@@ -1236,14 +1236,10 @@ html[lang="en"] .map-center { font-size:26px; }
  html[lang="en"] .map-center { font-size:24px; }
 }
 
-/* Compact publication browsing, with native disclosure and a mobile selector. */
+/* Compact publication browsing with a mobile selector. */
 .theme-picker { display:none; }
-.paper-disclosure { border-block:1px solid var(--line); }
-.paper-disclosure summary { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:19px 0; list-style:none; cursor:pointer; font-size:14px; color:var(--accent); }
-.paper-disclosure summary::-webkit-details-marker { display:none; }
 .disclosure-icon { font-size:25px; line-height:1; transition:transform .15s; }
-.paper-disclosure[open] .disclosure-icon { transform:rotate(45deg); }
-.paper-disclosure .publication { padding-block:23px; }
+.publication { padding-block:23px; }
 .theme-button { min-height:42px; padding-block:8px; }
 .result-count { margin-bottom:10px; }
 .selection-date { font-size:9px; letter-spacing:.04em; }
@@ -1259,7 +1255,60 @@ html[lang="en"] .map-center { width:360px; font-size:24px; }
  .theme-picker select:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
  .publication-browser { gap:22px; }
  .map-center,html[lang="en"] .map-center { width:94%; font-size:23px; }
- .paper-disclosure summary { gap:15px; font-size:14px; }
 }
-@media print { .paper-disclosure summary { display:none; } .paper-disclosure { border:0; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .disclosure-icon { transition:none; } }
+
+/* Keep the biography readable; reveal detailed research only when requested. */
+.brief-cv { padding-block:52px; }
+.brief-cv .section-heading { margin-bottom:28px; }
+.brief-cv h2 { font-size:32px; }
+.brief-cv .bio-label { margin-bottom:16px; }
+.brief-cv .bio-entry,.brief-cv .recognition { padding-block:14px; }
+.brief-cv .mentor-note { margin-top:14px; }
+.brief-cv>.bio-links { margin-top:20px; padding-top:16px; }
+.compact-section>.section { padding-block:0; }
+.section-summary { display:grid; grid-template-columns:240px minmax(0,1fr) auto; align-items:center; gap:30px; padding:34px 0; list-style:none; cursor:pointer; }
+.section-summary::-webkit-details-marker { display:none; }
+.section-summary>.eyebrow { color:var(--accent); }
+.section-summary h2 { font-size:32px; text-wrap:balance; }
+.section-toggle { display:flex; align-items:center; gap:16px; font-size:13px; color:var(--accent); white-space:nowrap; }
+.section-summary:hover h2 { color:var(--accent); }
+.section-disclosure:not([open]) .when-open,.section-disclosure[open] .when-closed { display:none; }
+.section-disclosure[open]>.section-summary .disclosure-icon { transform:rotate(45deg); }
+.section-disclosure-body { padding:2px 0 58px; }
+.disclosure-intro { margin:0 0 28px 270px; max-width:760px; color:var(--muted); font-size:15px; }
+.science-gallery { margin-top:34px; padding-top:26px; }
+.science-gallery-grid { align-items:center; }
+.science-figure .image-zoom { height:174px; }
+.science-gallery .zoom-cue { opacity:0; }
+.science-gallery .image-zoom:hover .zoom-cue,.science-gallery .image-zoom:focus-visible .zoom-cue { opacity:1; }
+@media(max-width:1120px) {
+ .section-summary { grid-template-columns:190px minmax(0,1fr) auto; }
+ .disclosure-intro { margin-left:220px; }
+}
+@media(max-width:900px) {
+ .section-summary { grid-template-columns:minmax(0,1fr) auto; gap:10px 24px; }
+ .section-summary>.eyebrow { grid-column:1/-1; }
+ .disclosure-intro { margin-left:0; }
+ .science-gallery-grid { grid-template-columns:1.35fr 1fr 1fr; gap:18px; }
+ .science-collider { grid-column:auto; }
+ .science-figure .image-zoom { height:135px; }
+}
+@media(max-width:640px) {
+ .brief-cv { padding-block:38px; }
+ .brief-cv h2,.section-summary h2 { font-size:27px; }
+ .brief-cv .section-heading { gap:14px; margin-bottom:24px; }
+ .section-summary { padding:26px 0; gap:13px 14px; }
+ .section-summary>.eyebrow { font-size:10px; }
+ .section-toggle { gap:10px; font-size:12px; }
+ .section-toggle .disclosure-icon { font-size:23px; }
+ .section-disclosure-body { padding-bottom:38px; }
+ .science-gallery { margin-top:24px; padding-top:20px; }
+ .science-gallery-grid { gap:12px; }
+ .science-figure .image-zoom { height:84px; }
+}
+@media print {
+ .section-summary { display:block; padding:20px 0; }
+ .section-summary .section-toggle { display:none; }
+ .disclosure-intro { margin-left:0; }
+}
