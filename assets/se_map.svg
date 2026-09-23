@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="989.716491" height="435.483382" viewBox="180.675347 897.240120 989.716491 435.483382"><rect x="180.675347" y="897.240120" width="989.716491" height="435.483382" fill="white" /><g id="six-point-worldsheet"><ellipse cx="392" cy="1110" rx="166" ry="166" fill="none" stroke="#202D3B" stroke-width="2.8" /><circle cx="392.0000" cy="944.0000" r="5.4" fill="#202D3B" /><circle cx="508.8383" cy="992.0814" r="5.4" fill="#202D3B" /><circle cx="556.3759" cy="1133.1642" r="5.4" fill="#202D3B" /><circle cx="488.5594" cy="1245.0270" r="5.4" fill="#202D3B" /><circle cx="295.6558" cy="1245.1806" r="5.4" fill="#202D3B" /><circle cx="227.4352" cy="1131.7814" r="5.4" fill="#202D3B" /></g><path d="M605.0000,1110.0000 L685.0000,1110.0000" fill="none" stroke="#202D3B" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" /><path d="M665.0,1096.0 L685,1110 L665.0,1124.0" fill="none" stroke="#202D3B" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" /><g id="six-point-associahedron" transform="translate(723.83333,910.00000) scale(0.6833333)">
+<g id="six-point-associahedron-exact-abhy-associahedron" stroke-linecap="round" stroke-linejoin="round">
+<g id="six-point-associahedron-nine-original-faces">
+<polygon id="six-point-associahedron-face-1" points="522.19300,408.48853 529.27316,42.00000 592.88049,47.61711 583.70684,433.88864" fill="#E5DCCD" fill-opacity="0.18" />
+<polygon id="six-point-associahedron-face-0" points="49.03674,452.50387 47.11951,320.03355 298.76413,44.56743 529.27316,42.00000 522.19300,408.48853" fill="#DDE4E7" fill-opacity="0.24" />
+<polygon id="six-point-associahedron-face-2" points="541.78598,55.63879 592.88049,47.61711 529.27316,42.00000 298.76413,44.56743 412.45588,57.47926" fill="#D6CABB" fill-opacity="0.63" />
+<polygon id="six-point-associahedron-face-8" points="49.03674,452.50387 522.19300,408.48853 583.70684,433.88864 473.37081,524.07590 184.83702,558.00000" fill="#ABB8B0" fill-opacity="0.52" />
+<polygon id="six-point-associahedron-face-3" points="473.37081,524.07590 583.70684,433.88864 592.88049,47.61711 541.78598,55.63879 478.20239,221.50630" fill="#A5A9BC" fill-opacity="0.61" />
+<polygon id="six-point-associahedron-face-6" points="335.40889,228.75143 412.45588,57.47926 298.76413,44.56743 47.11951,320.03355 184.07530,399.07657" fill="#C5ADA5" fill-opacity="0.72" />
+<polygon id="six-point-associahedron-face-7" points="184.07530,399.07657 47.11951,320.03355 49.03674,452.50387 184.83702,558.00000" fill="#B5A7B9" fill-opacity="0.64" />
+<polygon id="six-point-associahedron-face-4" points="478.20239,221.50630 541.78598,55.63879 412.45588,57.47926 335.40889,228.75143" fill="#D8E7E9" fill-opacity="0.69" />
+<polygon id="six-point-associahedron-face-5" points="473.37081,524.07590 478.20239,221.50630 335.40889,228.75143 184.07530,399.07657 184.83702,558.00000" fill="#BCD5F3" fill-opacity="0.7" />
+</g>
+<g id="six-point-associahedron-rear-original-edges">
+<path id="six-point-associahedron-edge-0-1" d="M 529.27316,42.00000 L 522.19300,408.48853" fill="none" stroke="#8F969A" stroke-width="1.1" stroke-opacity="0.58" />
+<path id="six-point-associahedron-edge-1-4" d="M 522.19300,408.48853 L 49.03674,452.50387" fill="none" stroke="#8F969A" stroke-width="1.1" stroke-opacity="0.58" />
+<path id="six-point-associahedron-edge-1-6" d="M 522.19300,408.48853 L 583.70684,433.88864" fill="none" stroke="#8F969A" stroke-width="1.1" stroke-opacity="0.58" />
+</g>
+<g id="six-point-associahedron-front-original-edges">
+<path id="six-point-associahedron-edge-0-2" d="M 529.27316,42.00000 L 298.76413,44.56743" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-0-5" d="M 529.27316,42.00000 L 592.88049,47.61711" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-2-3" d="M 298.76413,44.56743 L 47.11951,320.03355" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-2-8" d="M 298.76413,44.56743 L 412.45588,57.47926" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-3-4" d="M 47.11951,320.03355 L 49.03674,452.50387" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-3-12" d="M 47.11951,320.03355 L 184.07530,399.07657" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-4-13" d="M 49.03674,452.50387 L 184.83702,558.00000" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-5-6" d="M 592.88049,47.61711 L 583.70684,433.88864" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-5-7" d="M 592.88049,47.61711 L 541.78598,55.63879" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-6-10" d="M 583.70684,433.88864 L 473.37081,524.07590" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-7-8" d="M 541.78598,55.63879 L 412.45588,57.47926" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-7-9" d="M 541.78598,55.63879 L 478.20239,221.50630" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-8-11" d="M 412.45588,57.47926 L 335.40889,228.75143" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-9-10" d="M 478.20239,221.50630 L 473.37081,524.07590" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-9-11" d="M 478.20239,221.50630 L 335.40889,228.75143" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-10-13" d="M 473.37081,524.07590 L 184.83702,558.00000" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-11-12" d="M 335.40889,228.75143 L 184.07530,399.07657" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+<path id="six-point-associahedron-edge-12-13" d="M 184.07530,399.07657 L 184.83702,558.00000" fill="none" stroke="#484B4F" stroke-width="1.65" stroke-opacity="0.94" />
+</g>
+</g>
+</g></svg>

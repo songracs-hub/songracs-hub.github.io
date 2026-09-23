@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="556.215061" height="517.655201" viewBox="121.892477 298.672369 556.215061 517.655201"><rect x="121.892477" y="298.672369" width="556.215061" height="517.655201" fill="white" /><g id="five-point-associahedron" transform="translate(132.64470,310.00000) scale(3.1965387)">
+<defs>
+<clipPath id="five-point-associahedron-clip_1">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M45.242 20.500016H212.52V175.35501H45.242Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_2">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M72.719 148.879H183.719V44.878999H72.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_3">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M76 48H180V148H76Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_4">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M115.719 46.879H141.719V22.879002H115.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_5">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M116 25H141V48H116Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_6">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M154.719 156.879H179.719V131.879H154.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_7">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M155 134H179V157H155Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_8">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M174.719 89.879H199.719V65.879H174.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_9">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M174 67H198V90H174Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_10">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M77.719 156.879H103.719V131.879H77.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_11">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M78 134H102V157H78Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_12">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M158.719 46.879H184.719V22.879002H158.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_13">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M159 24H183V48H159Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_14">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M184.719 122.879H210.719V97.879H184.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_15">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M185 100H209V123H185Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_16">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M115.719 172.879H141.719V147.879H115.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_17">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M117 150H140V173H117Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_18">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M74.719 46.879H100.719V22.879002H74.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_19">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M75 24H99V48H75Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_20">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M47.719 122.879H72.719V97.879H47.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_21">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M49 100H73V123H49Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_22">
+<path transform="matrix(1,0,0,-1,-45.242,175.35501)" d="M56.719 89.879H82.719V65.879H56.719Z" />
+</clipPath>
+<clipPath id="five-point-associahedron-clip_23">
+<path transform="matrix(1,0,0,-1,-45.242,176.355)" d="M58 67H82V90H58Z" />
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#five-point-associahedron-clip_1)">
+<g clip-path="url(#five-point-associahedron-clip_2)">
+<g clip-path="url(#five-point-associahedron-clip_3)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width="1.12" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M179.672-87.453 159.93-148.211H96.043L76.305-87.453 127.988-49.902ZM179.672-87.453" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_4)">
+<g clip-path="url(#five-point-associahedron-clip_5)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M139.742-157.813 135.441-171.047H121.523L117.227-157.813 128.484-149.633ZM139.742-157.813" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#C86057" d="M117.227-158.266H139.742" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_6)">
+<g clip-path="url(#five-point-associahedron-clip_7)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M177.805-49.094 173.504-62.328H159.586L155.285-49.094 166.543-40.91ZM177.805-49.094" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#C86057" d="M166.59-40.91 173.504-62.328" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_8)">
+<g clip-path="url(#five-point-associahedron-clip_9)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M197.785-115.574 193.484-128.809H179.566L175.266-115.574 186.527-107.395ZM197.785-115.574" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#C86057" d="M175.266-115.574 193.484-128.809" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_10)">
+<g clip-path="url(#five-point-associahedron-clip_11)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M101.68-49.094 97.383-62.328H83.465L79.164-49.094 90.422-40.91ZM101.68-49.094" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#C86057" d="M90.469-40.91 83.465-62.328" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_12)">
+<g clip-path="url(#five-point-associahedron-clip_13)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M182.426-158.266 178.129-171.5H164.211L159.91-158.266 171.168-150.086ZM182.426-158.266" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M159.91-158.266H182.426" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M159.91-158.266 178.129-171.5" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_14)">
+<g clip-path="url(#five-point-associahedron-clip_15)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M208.52-82.906 204.219-96.145H190.301L186-82.906 197.258-74.727ZM208.52-82.906" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M186-82.906 204.219-96.145" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M197.258-74.727 204.219-96.145" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_16)">
+<g clip-path="url(#five-point-associahedron-clip_17)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M139.742-32.824 135.441-46.059H121.523L117.227-32.824 128.484-24.645ZM139.742-32.824" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M135.441-46.059 128.535-24.645" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M121.523-46.059 128.484-24.645" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_18)">
+<g clip-path="url(#five-point-associahedron-clip_19)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M98.363-158.266 94.063-171.5H80.148L75.848-158.266 87.105-150.086ZM98.363-158.266" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M98.363-158.266 80.148-171.5" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M75.848-158.266H98.363" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_20)">
+<g clip-path="url(#five-point-associahedron-clip_21)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M49.242-82.906 53.543-96.145H67.461L71.762-82.906 60.5-74.727ZM49.242-82.906" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M71.762-82.906 53.543-96.145" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M60.5-74.727 53.543-96.145" />
+</g>
+</g>
+<g clip-path="url(#five-point-associahedron-clip_22)">
+<g clip-path="url(#five-point-associahedron-clip_23)">
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".36" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#202D3B" d="M58.941-115.574 63.242-128.809H77.156L81.461-115.574 70.199-107.395ZM58.941-115.574" />
+<path transform="matrix(1,0,0,-1,-45.242,-20.645005)" stroke-width=".72" stroke-linecap="square" stroke-miterlimit="3.25" stroke-linejoin="miter" fill="none" stroke="#C86057" d="M81.461-115.574 63.242-128.809" />
+</g>
+</g>
+</g>
+</g>
+</g></svg>
