@@ -50,7 +50,7 @@
   window.addEventListener('afterprint', () => {
     sectionDisclosures.forEach((details, i) => { details.open = disclosuresBeforePrint[i]; });
   });
-  document.querySelectorAll('a[href="#publications"]').forEach(link => link.addEventListener('click', () => {
+  document.querySelectorAll('a[href="#publications"], a[href="#resources"]').forEach(link => link.addEventListener('click', () => {
     document.querySelector(link.getAttribute('href') + ' .section-disclosure').open = true;
   }));
   document.querySelectorAll('[data-theme-target]').forEach(link => link.addEventListener('click', () => filterPapers(link.dataset.themeTarget)));
